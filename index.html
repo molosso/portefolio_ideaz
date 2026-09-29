@@ -16,72 +16,158 @@
 <header class="nav">
   <a href="#hero" class="nav__name">Amir Benchebchoub</a>
   <nav class="nav__links">
-    <a href="#works">Works</a><a href="#about">About</a><a href="#blog">Blog</a>
+    <a href="#about">About</a>
+    <a href="#works">Works</a>
+    <a href="#services">Services</a>
+    <a href="#blog">Blog</a>
   </nav>
   <a href="#contact" class="nav__contact">Contact</a>
 </header>
 
-<!-- 1 · MAIN PAGE -->
+<!-- 1 · HERO -->
 <section class="hero" id="hero">
   <div class="hero__bg"></div>
-  <!-- Remplace .hero__person par <img src="ta-photo.png" class="hero__person"> -->
-  <div class="hero__person"></div>
+  <img src="images/hero-person.png" alt="Amir Benchebchoub" class="hero__person">
   <ul class="hero__list">
-    <li>Brand Design</li><li>Graphic Design</li><li>Photography &amp; videography</li>
+    <li>Brand Design</li>
+    <li>Graphic Design</li>
+    <li>Photography &amp; videography</li>
   </ul>
   <p class="hero__tag">Designing bold, clean thoughtful experiences that elevate brands and turn ideas into impactful visuals.</p>
   <h1 class="hero__title"><span>Graphic</span><span>Designer</span></h1>
 </section>
 
 <main class="stack">
-<!-- 2 · ABOUT -->
-<section class="sec sec--light about" id="about">
-  <h2 class="about__title" data-split>I’m a multidisciplinary Graphic Designer and Communication Specialist, helping brands and organisations turn their ideas into engaging visual campaigns.</h2>
-  <div class="about__grid">
-    <div class="about__photo" data-reveal="clip"></div>
-    <p data-reveal>My expertise combines graphic design, branding, photography, video editing, motion design, content creation, communication strategy, and Meta advertising. I can manage an entire campaign—from concept and artistic direction to content production, digital promotion, and event coverage.</p>
-    <p data-reveal style="--d:.12s">I have developed strong experience in the cultural and events sector, creating communication campaigns for concerts, exhibitions, festivals, workshops, and institutional programmes.</p>
-    <a href="#works" class="btn" data-magnetic><span class="btn__label">Read more</span><svg class="btn__arrow" viewBox="0 0 24 12"><path d="M0 6h22M17 1l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></a>
-  </div>
-  <div class="bar"><span>03</span><span>( Selected Works )</span><span>© 2026</span></div>
-</section>
+  <!-- 2 · ABOUT -->
+  <section class="sec sec--light about" id="about">
+    <h2 class="about__title" data-split>I’m a multidisciplinary Graphic Designer and Communication Specialist, helping brands and organisations turn their ideas into engaging visual campaigns.</h2>
+    <div class="about__grid">
+      <div class="about__photo" data-reveal="clip">
+        <img src="images/about.jpg" alt="Amir Benchebchoub">
+      </div>
+      <p data-reveal>My expertise combines graphic design, branding, photography, video editing, motion design, content creation, communication strategy, and Meta advertising. I can manage an entire campaign—from concept and artistic direction to content production, digital promotion, and event coverage.</p>
+      <p data-reveal style="--d:.12s">I have developed strong experience in the cultural and events sector, creating communication campaigns for concerts, exhibitions, festivals, workshops, and institutional programmes.</p>
+      <a href="#works" class="btn">
+        <span class="btn__label">Read more</span>
+        <svg class="btn__arrow" viewBox="0 0 24 12"><path d="M0 6h22M17 1l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+      </a>
+    </div>
+    <div class="bar"><span>03</span><span>( Selected Works )</span><span>© 2026</span></div>
+  </section>
 
-<!-- 3 · WORKS -->
-<section class="sec sec--light works" id="works">
-  <div class="bar bar--top"><span>03</span><span>( Selected Works )</span><span>© 2026</span></div>
-  <div class="works__row">
-    <a href="#" class="card card--blue" data-reveal="clip" data-tilt>
-      <div class="card__img"><i></i><i></i><i></i></div>
-      <div class="card__meta"><b>BRAVEN</b><em>BRAND WEB</em></div>
+  <!-- 3 · WORKS -->
+  <section class="sec sec--light works" id="works">
+    <div class="bar bar--top"><span>03</span><span>( Selected Works )</span><span>© 2026</span></div>
+    <div class="works__row">
+      <a href="#" class="card card--blue" data-reveal="clip">
+        <div class="card__img">
+          <img src="images/project1.jpg" alt="BRAVEN">
+        </div>
+        <div class="card__meta">
+          <b>BRAVEN</b>
+          <em>Brand Identity</em>
+        </div>
+      </a>
+      <a href="#" class="card card--grey" data-reveal="clip" style="--d:.15s">
+        <div class="card__img">
+          <img src="images/project2.jpg" alt="LUMINA">
+        </div>
+        <div class="card__meta">
+          <b>LUMINA</b>
+          <em>Photography</em>
+        </div>
+      </a>
+    </div>
+    <a href="#" class="card card--orange" data-reveal="clip">
+      <div class="card__img">
+        <img src="images/project3.jpg" alt="Project Orange">
+      </div>
     </a>
-    <a href="#" class="card card--grey" data-reveal="clip" data-tilt style="--d:.15s">
-      <div class="card__img"><i></i><i></i></div>
-      <div class="card__meta"><b>LUMINA</b><em>BRAND WEB</em></div>
-    </a>
-  </div>
-  <a href="#" class="card card--orange" data-reveal="clip" data-tilt>
-    <div class="card__img"><i></i><i></i><i></i><i></i></div>
-  </a>
-</section>
+  </section>
 
-<!-- 4 · SERVICES -->
-<section class="sec sec--dark services" id="services">
-  <div class="bar"><span>04</span><span>( Services )</span><span>© 2026</span></div>
-  <h2 class="services__title" data-split>Thoughtful, high-impact visuals and structured digital experiences built for your brand</h2>
-  <article class="svc" data-reveal>
-    <span class="svc__n">01</span>
-    <div class="svc__img svc__img--red"><i></i></div>
-    <h3>Art<br>Direction</h3>
-    <p>We craft compelling visual stories that align with your vision and speak directly to your audience. From concept to execution, every detail is thoughtfully directed to ensure consistency, emotion, and impact across all touchpoints.</p>
-  </article>
-  <article class="svc" data-reveal>
-    <span class="svc__n">02</span>
-    <div class="svc__img svc__img--dark"><i></i><i></i><i></i></div>
-    <h3>Brand<br>Identity</h3>
-    <p>We develop cohesive brand systems that go beyond logos—defining how your brand looks, feels, and communicates. The result is a distinct, memorable identity that builds trust and stands out in a crowded market.</p>
-  </article>
-</section>
+  <!-- 4 · SERVICES -->
+  <section class="sec sec--dark services" id="services">
+    <div class="bar">
+      <span>04</span>
+      <span>( Services )</span>
+      <span>© 2026</span>
+    </div>
+    <h2 class="services__title" data-split>Thoughtful, high-impact visuals and structured digital experiences built for your brand</h2>
+    <article class="svc" data-reveal>
+      <span class="svc__n">01</span>
+      <div class="svc__img svc__img--red">
+        <img src="images/service1.jpg" alt="Art Direction">
+      </div>
+      <h3>Art<br>Direction</h3>
+      <p>We craft compelling visual stories that align with your vision and speak directly to your audience. From concept to execution, every detail is thoughtfully directed to ensure consistency, emotion, and impact across all touchpoints.</p>
+    </article>
+    <article class="svc" data-reveal>
+      <span class="svc__n">02</span>
+      <div class="svc__img svc__img--dark">
+        <img src="images/service2.jpg" alt="Brand Identity">
+      </div>
+      <h3>Brand<br>Identity</h3>
+      <p>We develop cohesive brand systems that go beyond logos—defining how your brand looks, feels, and communicates. The result is a distinct, memorable identity that builds trust and stands out in a crowded market.</p>
+    </article>
+  </section>
+
+  <!-- 5 · BLOG -->
+  <section class="sec sec--light blog" id="blog">
+    <div class="bar">
+      <span>05</span>
+      <span>( Blog )</span>
+      <span>© 2026</span>
+    </div>
+    <h2 class="blog__title" data-split>Latest Articles</h2>
+    <div class="blog-grid" data-reveal>
+      <article class="blog-card">
+        <div class="blog-card__img"><img src="images/blog1.jpg" alt=""></div>
+        <h3>Building Strong Visual Identities</h3>
+        <p>Read More →</p>
+      </article>
+      <article class="blog-card">
+        <div class="blog-card__img"><img src="images/blog2.jpg" alt=""></div>
+        <h3>Photography for Modern Brands</h3>
+        <p>Read More →</p>
+      </article>
+      <article class="blog-card">
+        <div class="blog-card__img"><img src="images/blog3.jpg" alt=""></div>
+        <h3>Creative Direction Process</h3>
+        <p>Read More →</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- 6 · CONTACT -->
+  <section class="sec sec--dark contact" id="contact">
+    <div class="bar">
+      <span>06</span>
+      <span>( Contact )</span>
+      <span>© 2026</span>
+    </div>
+    <h2 class="contact__title" data-split>Let's build something together.</h2>
+    <form class="contact__form" data-reveal>
+      <input type="text" placeholder="Your name" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Tell me about your project" required></textarea>
+      <button class="btn btn--light" type="submit">
+        <span class="btn__label">Send Message</span>
+      </button>
+    </form>
+  </section>
 </main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <h3>Amir Benchebchoub</h3>
+  <p>Graphic Designer · Branding · Photography · Motion Design</p>
+  <div class="footer__links">
+    <a href="#" target="_blank">Instagram</a>
+    <a href="#" target="_blank">Behance</a>
+    <a href="#" target="_blank">LinkedIn</a>
+    <a href="mailto:contact@amirbenchebchoub.com">Email</a>
+  </div>
+</footer>
 
 <script src="script.js"></script>
 </body>
