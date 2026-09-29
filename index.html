@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Amir Benchebchoub — Graphic Designer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="progress"></div>
+<div class="cursor"><span>Voir</span></div>
+
+<header class="nav">
+  <a href="#hero" class="nav__name">Amir Benchebchoub</a>
+  <nav class="nav__links">
+    <a href="#works">Works</a><a href="#about">About</a><a href="#blog">Blog</a>
+  </nav>
+  <a href="#contact" class="nav__contact">Contact</a>
+</header>
+
+<!-- 1 · MAIN PAGE -->
+<section class="hero" id="hero">
+  <div class="hero__bg"></div>
+  <!-- Remplace .hero__person par <img src="ta-photo.png" class="hero__person"> -->
+  <div class="hero__person"></div>
+  <ul class="hero__list">
+    <li>Brand Design</li><li>Graphic Design</li><li>Photography &amp; videography</li>
+  </ul>
+  <p class="hero__tag">Designing bold, clean thoughtful experiences that elevate brands and turn ideas into impactful visuals.</p>
+  <h1 class="hero__title"><span>Graphic</span><span>Designer</span></h1>
+</section>
+
+<main class="stack">
+<!-- 2 · ABOUT -->
+<section class="sec sec--light about" id="about">
+  <h2 class="about__title" data-split>I’m a multidisciplinary Graphic Designer and Communication Specialist, helping brands and organisations turn their ideas into engaging visual campaigns.</h2>
+  <div class="about__grid">
+    <div class="about__photo" data-reveal="clip"></div>
+    <p data-reveal>My expertise combines graphic design, branding, photography, video editing, motion design, content creation, communication strategy, and Meta advertising. I can manage an entire campaign—from concept and artistic direction to content production, digital promotion, and event coverage.</p>
+    <p data-reveal style="--d:.12s">I have developed strong experience in the cultural and events sector, creating communication campaigns for concerts, exhibitions, festivals, workshops, and institutional programmes.</p>
+    <a href="#works" class="btn" data-magnetic><span class="btn__label">Read more</span><svg class="btn__arrow" viewBox="0 0 24 12"><path d="M0 6h22M17 1l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></a>
+  </div>
+  <div class="bar"><span>03</span><span>( Selected Works )</span><span>© 2026</span></div>
+</section>
+
+<!-- 3 · WORKS -->
+<section class="sec sec--light works" id="works">
+  <div class="bar bar--top"><span>03</span><span>( Selected Works )</span><span>© 2026</span></div>
+  <div class="works__row">
+    <a href="#" class="card card--blue" data-reveal="clip" data-tilt>
+      <div class="card__img"><i></i><i></i><i></i></div>
+      <div class="card__meta"><b>BRAVEN</b><em>BRAND WEB</em></div>
+    </a>
+    <a href="#" class="card card--grey" data-reveal="clip" data-tilt style="--d:.15s">
+      <div class="card__img"><i></i><i></i></div>
+      <div class="card__meta"><b>LUMINA</b><em>BRAND WEB</em></div>
+    </a>
+  </div>
+  <a href="#" class="card card--orange" data-reveal="clip" data-tilt>
+    <div class="card__img"><i></i><i></i><i></i><i></i></div>
+  </a>
+</section>
+
+<!-- 4 · SERVICES -->
+<section class="sec sec--dark services" id="services">
+  <div class="bar"><span>04</span><span>( Services )</span><span>© 2026</span></div>
+  <h2 class="services__title" data-split>Thoughtful, high-impact visuals and structured digital experiences built for your brand</h2>
+  <article class="svc" data-reveal>
+    <span class="svc__n">01</span>
+    <div class="svc__img svc__img--red"><i></i></div>
+    <h3>Art<br>Direction</h3>
+    <p>We craft compelling visual stories that align with your vision and speak directly to your audience. From concept to execution, every detail is thoughtfully directed to ensure consistency, emotion, and impact across all touchpoints.</p>
+  </article>
+  <article class="svc" data-reveal>
+    <span class="svc__n">02</span>
+    <div class="svc__img svc__img--dark"><i></i><i></i><i></i></div>
+    <h3>Brand<br>Identity</h3>
+    <p>We develop cohesive brand systems that go beyond logos—defining how your brand looks, feels, and communicates. The result is a distinct, memorable identity that builds trust and stands out in a crowded market.</p>
+  </article>
+</section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
