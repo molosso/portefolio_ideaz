@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#050807">
+  <title>ARCANE — Fan Experience</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-green"></div>
+  <div class="ambient ambient-red"></div>
+
+  <header class="site-header">
+    <a href="#home" class="wordmark" aria-label="Arcane Creativo99">Creativo<span>99</span></a>
+    <form class="search" role="search" id="search-form">
+      <button type="submit" aria-label="Search">⌕</button>
+      <input id="search-input" type="search" placeholder="Search for a character..." aria-label="Search for a character">
+      <button class="clear-search" type="button" aria-label="Clear search">×</button>
+    </form>
+    <button class="mobile-menu" id="mobile-menu" aria-expanded="false" aria-label="Open menu">☰</button>
+    <nav class="main-nav" id="main-nav">
+      <a href="#home">Home</a>
+      <a href="#characters">New</a>
+      <a href="#episodes">Popular</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-art art-jinx" role="img" aria-label="Illustration stylisée d'une héroïne aux cheveux bleus"></div>
+      <div class="hero-art art-vi" role="img" aria-label="Illustration stylisée d'une combattante"></div>
+      <div class="hero-art art-cait" role="img" aria-label="Illustration stylisée d'une gardienne"></div>
+      <div class="hero-copy">
+        <p class="eyebrow">LEAGUE OF LEGENDS · ANIMATED SERIES</p>
+        <h1>ARCANE</h1>
+        <p class="hero-subtitle">LEAGUE <span>OF</span> LEGENDS</p>
+      </div>
+      <a class="scroll-cue" href="#characters" aria-label="Scroll to characters"><span></span><span></span><span></span></a>
+      <div class="hero-bottom-label">A TALE OF TWO CITIES <span>—</span> PILTOVER / ZAUN</div>
+    </section>
+
+    <section class="feature-section section-wrap" id="characters">
+      <div class="season-title">
+        <p class="eyebrow">SEASON 1</p>
+        <h2>ARCANE</h2>
+        <p class="league-label">LEAGUE <span>OF</span> LEGENDS</p>
+      </div>
+
+      <article class="character-feature searchable" data-search="jinx powder arcane blue hair">
+        <div class="character-art art-jinx feature-portrait" role="img" aria-label="Illustration stylisée de Jinx"></div>
+        <div class="character-content">
+          <div class="video-frame" data-video="Arcane · Temporada 1">
+            <div class="video-still still-one"></div>
+            <div class="video-controls">
+              <span class="tiny-label">ARCANE T1 / OFFICIAL TRAILER</span>
+              <div class="control-row">
+                <button class="skip-button" data-skip="-10" aria-label="Reculer de dix secondes">↶<small>10</small></button>
+                <button class="play-button" aria-label="Lire la bande-annonce">▶</button>
+                <button class="skip-button" data-skip="10" aria-label="Avancer de dix secondes">↷<small>10</small></button>
+              </div>
+              <div class="progress"><span></span></div>
+            </div>
+          </div>
+          <h2 class="glitch-title" data-text="Jinx">Jinx</h2>
+          <p class="quote">Jinx to Vi: “When these walls come tumbling down”</p>
+          <p class="description">Also known as Powder, Jinx is one of Zaun’s most unpredictable figures. Her past, her relationship with Vi, and her fascination with chaos shape an intense story about identity, loss, and family.</p>
+          <div class="video-frame compact" data-video="Arcane · Jinx">
+            <div class="video-still still-two"></div>
+            <div class="video-controls">
+              <span class="tiny-label">ARCANE T1 / CHARACTER MOMENT</span>
+              <div class="control-row">
+                <button class="skip-button" data-skip="-10" aria-label="Reculer de dix secondes">↶<small>10</small></button>
+                <button class="play-button" aria-label="Lire la vidéo">▶</button>
+                <button class="skip-button" data-skip="10" aria-label="Avancer de dix secondes">↷<small>10</small></button>
+              </div>
+              <div class="progress"><span></span></div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="character-row searchable" data-search="vi violet arcane piltover fighter">
+        <div class="row-art art-vi" role="img" aria-label="Illustration stylisée de Vi"></div>
+        <div class="row-content">
+          <p class="eyebrow">ZAUN'S REBEL</p>
+          <h2 class="glitch-title" data-text="Vi">Vi</h2>
+          <p class="description">Violet, better known as Vi, is an impulsive and fearless fighter. Her strength is matched by her loyalty, and her bond with Powder remains at the heart of her journey between two worlds.</p>
+          <div class="mini-divider"></div>
+          <h3>Caitlyn Kiramman</h3>
+          <p class="description small-description">A Piltover investigator with a strong sense of justice. Her partnership with Vi leads her to question the boundaries between order, privilege, and truth.</p>
+        </div>
+        <div class="row-art art-cait second-row-art" role="img" aria-label="Illustration stylisée de Caitlyn"></div>
+      </article>
+    </section>
+
+    <section class="episodes section-wrap" id="episodes">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">FEATURED MOMENTS</p>
+          <h2>WATCH THE<br><span>STORY UNFOLD</span></h2>
+        </div>
+        <p>A collection of unforgettable scenes and moments from Arcane.</p>
+      </div>
+
+      <div class="episode-grid">
+        <button class="episode-card" data-video="Episode 01">
+          <div class="episode-image episode-one"><span class="play-round">▶</span></div>
+          <span class="episode-meta">EPISODE 01 <b>↗</b></span>
+        </button>
+        <button class="episode-card" data-video="Episode 03">
+          <div class="episode-image episode-two"><span class="play-round">▶</span></div>
+          <span class="episode-meta">EPISODE 03 <b>↗</b></span>
+        </button>
+        <button class="episode-card" data-video="Episode 06">
+          <div class="episode-image episode-three"><span class="play-round">▶</span></div>
+          <span class="episode-meta">EPISODE 06 <b>↗</b></span>
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-logo">ARCANE<span>™</span><small>LEAGUE OF LEGENDS</small></div>
+    <div class="footer-copy">
+      <p>FAN-MADE DESIGN CONCEPT</p>
+      <p>A visual experience inspired by the world of Arcane.</p>
+    </div>
+    <a class="back-top" href="#home" aria-label="Back to top">⌃<span>TOP</span></a>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
